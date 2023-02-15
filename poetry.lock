@@ -1094,7 +1094,7 @@ files = [
 
 [[package]]
 name = "starlite"
-version = "1.51.0"
+version = "1.51.2"
 description = "Performant, light and flexible ASGI API Framework"
 category = "dev"
 optional = false
@@ -1133,8 +1133,8 @@ tortoise-orm = []
 [package.source]
 type = "git"
 url = "https://github.com/starlite-api/starlite.git"
-reference = "main"
-resolved_reference = "03b8277938104dd64cbf3f164deb8a647917b9af"
+reference = "v1.51"
+resolved_reference = "fa016744497f73393916a5f90428d234b99870b1"
 
 [[package]]
 name = "tomli"
@@ -1260,4 +1260,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8, <4.0"
-content-hash = "cb913fb53757cb4a89b4a125859cd80361860cdc8e341d459746297aebcca413"
+content-hash = "373f608839f4d5a4cfaa135c932356409e9d035400580c362394c2f9a4f59bbc"
