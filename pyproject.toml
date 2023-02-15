@@ -45,7 +45,7 @@ pytest = "*"
 pytest-cov = "*"
 pre-commit = "*"
 mkdocs-gen-files = "*"
-starlite = {git = "https://github.com/starlite-api/starlite.git", branch="cli"}
+starlite = {git = "https://github.com/starlite-api/starlite.git", branch="v1.51"}
 
 [tool.poetry.scripts]
 starlite = "starlite_cli.main:cli"
